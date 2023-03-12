@@ -14,8 +14,8 @@
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/lVgnijNNBhc/maxresdefault.jpg)](https://www.youtube.com/watch?v=lVgnijNNBhc "Video Demo")
 
 ## Demo
-<img src="search.jpg" alt="drawing" width="375"/>
-<img src="favorite.jpg" alt="drawing" width="375"/>
+<img src="search.jpg" alt="drawing" width="250"/>
+<img src="favorite.jpg" alt="drawing" width="250"/>
 
 ## Build with
 
