@@ -79,7 +79,7 @@ class SearchMovieFragment : BaseViewBindingFragment<FragmentSearchMovieBinding, 
             is State.ErrorState -> {
               viewBinding.pbLoading.beGone()
               loadMoreListener.setLoaded()
-              Toast.makeText(requireContext(), it.exception.message, Toast.LENGTH_SHORT).show()
+              Logger.d("Error: ${it.exception.message}")
             }
           }
         }

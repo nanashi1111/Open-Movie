@@ -1,28 +1,21 @@
 # Base Clean Architecture starter project
 
-## Sample photo application built using clean architecture model
+## Sample movie application built using clean architecture model
 
 ## Architecture:
 - Built with Modern Android Development practices
 - Utilized Usecase, Repository pattern for data
-- Includes unit tests for Use cases, Repository, ViewModels, API Service response.
 
 ## Features
-- Get topics list from Unsplash API
-- Get the photos in each topic
-- View, Download photos
-
-## Demo
-<img src="topics.png" alt="drawing" width="250"/>
-<img src="topic_detail.png" alt="drawing" width="250"/>
-<img src="photo_detail.png" alt="drawing" width="250"/>
-
+- Get movies list from OMDB API
+- Add/Remove a movie to/from favorite list
 
 ## Video
-<video width="320" height="712" controls>
-  <source src="video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/lVgnijNNBhc/maxresdefault.jpg)](https://www.youtube.com/watch?v=lVgnijNNBhc "Video Demo")
+
+## Demo
+<img src="search.jpg" alt="drawing" width="375"/>
+<img src="favorite.jpg" alt="drawing" width="375"/>
 
 ## Build with
 
