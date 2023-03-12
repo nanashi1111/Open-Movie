@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_topic"
+    app:startDestination="@id/searchMovieFragment">
+
+    <fragment
+        android:id="@+id/searchMovieFragment"
+        android:name="com.cleanarchitectkotlinflowhiltsimplestway.presentation.movies.SearchMovieFragment"
+        android:label="SearchMovieFragment"
+        tools:layout="@layout/fragment_search_movie">
+        <action
+            android:id="@+id/action_searchMovieFragment_to_favoriteMoviesFragment"
+            app:destination="@id/favoriteMoviesFragment"
+            app:enterAnim="@anim/default_enter_anim"
+            app:exitAnim="@anim/default_exit_anim"
+            app:popEnterAnim="@anim/default_pop_enter_anim"
+            app:popExitAnim="@anim/default_pop_exit_anim"/>
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteMoviesFragment"
+        android:name="com.cleanarchitectkotlinflowhiltsimplestway.presentation.favorite.FavoriteMoviesFragment"
+        android:label="FavoriteMoviesFragment"
+        tools:layout="@layout/fragment_favorite_movies" />
+
+
+</navigation>

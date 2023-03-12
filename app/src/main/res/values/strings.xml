@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Open Movies</string>
+    <string name="topics">Topics</string>
+    <string name="screen_search_title">Find movies, TV show\nand more...</string>
+    <string name="screen_search_hint">Type your movie here...</string>
+    <string name="screen_favorite_title">Favorite movies</string>
+    <string name="screen_favorite_empty_state">You have no favorite movie</string>
+</resources>
